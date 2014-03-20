@@ -126,24 +126,24 @@
                         <td colspan="2">Examples:</td>                  
                      </tr>
                      <tr>
-                        <td class="sampleQuery">africa</td>
-                        <td class="sampleDescrip">Search keywords (full text and metadata) for 'africa'</td>
+                        <td class="sampleQuery">dance</td>
+                        <td class="sampleDescrip">Search keywords (full text and metadata) for 'dance'</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">south africa</td>
-                        <td class="sampleDescrip">Search keywords for 'south' AND 'africa'</td>
+                        <td class="sampleQuery">dance heritage</td>
+                        <td class="sampleDescrip">Search keywords for 'dance' AND 'heritage'</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">"south africa"</td>
-                        <td class="sampleDescrip">Search keywords for the phrase 'south africa'</td>
+                        <td class="sampleQuery">"dance heritage"</td>
+                        <td class="sampleDescrip">Search keywords for the phrase 'dance heritage'</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">africa*</td>
-                        <td class="sampleDescrip">Search keywords for the string 'africa' followed by 0 or more characters</td>
+                        <td class="sampleQuery">dance*</td>
+                        <td class="sampleDescrip">Search keywords for the string 'dance' followed by 0 or more characters</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">africa?</td>
-                        <td class="sampleDescrip">Search keywords for the string 'africa' followed by a single character</td>
+                        <td class="sampleQuery">dance?</td>
+                        <td class="sampleDescrip">Search keywords for the string 'dance' followed by a single character</td>
                      </tr>
                   </table>
                </td>
@@ -388,13 +388,13 @@
                      </tr>
                      <tr>
                         <td/>
-                        <td class="sampleQuery">south africa</td>
-                        <td class="sampleDescrip">Search full text for 'south' AND 'africa'</td>
+                        <td class="sampleQuery">dance heritage</td>
+                        <td class="sampleDescrip">Search full text for 'dance' AND 'heritage'</td>
                      </tr>
                      <tr>
                         <td>Exclude</td>
-                        <td class="sampleQuery">race</td>
-                        <td class="sampleDescrip">Exclude results which contain the term 'race'</td>
+                        <td class="sampleQuery">dance</td>
+                        <td class="sampleDescrip">Exclude results which contain the term 'dance'</td>
                      </tr>
                      <tr>
                         <td>Proximity</td>
@@ -408,8 +408,8 @@
                      </tr>
                      <tr>
                         <td>Title</td>
-                        <td class="sampleQuery">"south africa"</td>
-                        <td class="sampleDescrip">Search for the phrase 'south africa' in the 'title' field</td>
+                        <td class="sampleQuery">"dance heritage"</td>
+                        <td class="sampleDescrip">Search for the phrase 'dance heritage' in the 'title' field</td>
                      </tr>
                      <tr>
                         <td>Year(s)</td>
@@ -443,70 +443,70 @@
                         <td colspan="2">Examples:</td>                  
                      </tr>
                      <tr>
-                        <td class="sampleQuery">africa</td>
-                        <td class="sampleDescrip">Search keywords (full text and metadata) for 'africa'</td>
+                        <td class="sampleQuery">dance</td>
+                        <td class="sampleDescrip">Search keywords (full text and metadata) for 'dance'</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">south africa</td>
-                        <td class="sampleDescrip">Search keywords for 'south' AND 'africa'</td>
+                        <td class="sampleQuery">dance heritage</td>
+                        <td class="sampleDescrip">Search keywords for 'dance' AND 'heritage'</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">south &amp; africa</td>
+                        <td class="sampleQuery">dance &amp; heritage</td>
                         <td class="sampleDescrip">(same)</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">south AND africa</td>
+                        <td class="sampleQuery">dance AND heritage</td>
                         <td class="sampleDescrip">(same; note 'AND' must be capitalized)</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">title:south africa</td>
-                        <td class="sampleDescrip">Search title for 'south' AND 'africa'</td>
+                        <td class="sampleQuery">title:dance heritage</td>
+                        <td class="sampleDescrip">Search title for 'dance' AND 'heritage'</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">creator:moodley title:africa</td>
-                        <td class="sampleDescrip">Search creator for 'moodley' AND title for 'africa'</td>
+                        <td class="sampleQuery">creator:Kat title:dance</td>
+                        <td class="sampleDescrip">Search creator for 'Kat' AND title for 'dance'</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">south | africa</td>
-                        <td class="sampleDescrip">Search keywords for 'south' OR 'africa'</td>
+                        <td class="sampleQuery">dance | heritage</td>
+                        <td class="sampleDescrip">Search keywords for 'dance' OR 'heritage'</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">south OR africa</td>
+                        <td class="sampleQuery">dance OR heritage</td>
                         <td class="sampleDescrip">(same; note 'OR' must be capitalized)</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">africa -south</td>
-                        <td class="sampleDescrip">Search keywords for 'africa' not near 'south'</td>
+                        <td class="sampleQuery">heritage -dance</td>
+                        <td class="sampleDescrip">Search keywords for 'heritage' not near 'dance'</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">africa NOT south</td>
+                        <td class="sampleQuery">heritage NOT dance</td>
                         <td class="sampleDescrip">(same; note 'NOT' must be capitalized)</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">title:africa -south</td>
-                        <td class="sampleDescrip">Search title for 'africa' not near 'south'</td>
+                        <td class="sampleQuery">title:heritage -dance</td>
+                        <td class="sampleDescrip">Search title for 'heritage' not near 'dance'</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">title:africa subject:-politics</td>
+                        <td class="sampleQuery">title:dance subject:-ballet</td>
                         <td class="sampleDescrip">
-                           Search items with 'africa' in title but not 'politics' in subject.
+                           Search items with 'dance' in title but not 'heritage' in subject.
                            Note '-' must follow ':'
                         </td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">title:-south</td>
-                        <td class="sampleDescrip">Match all items without 'south' in title</td>
+                        <td class="sampleQuery">title:-dance</td>
+                        <td class="sampleDescrip">Match all items without 'dance' in title</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">-africa</td>
-                        <td class="sampleDescrip">Match all items without 'africa' in keywords</td>
+                        <td class="sampleQuery">-heritage</td>
+                        <td class="sampleDescrip">Match all items without 'heritage' in keywords</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">south (africa OR america)</td>
-                        <td class="sampleDescrip">Search keywords for 'south' AND either 'africa' OR 'america'</td>
+                        <td class="sampleQuery">dance (heritage OR history)</td>
+                        <td class="sampleDescrip">Search keywords for 'dance' AND either 'heritage' OR 'history'</td>
                      </tr>
                      <tr>
-                        <td class="sampleQuery">south africa OR america</td>
+                        <td class="sampleQuery">dance heritage OR history</td>
                         <td class="sampleDescrip">(same, due to precedence)</td>
                      </tr>
                   </table>
