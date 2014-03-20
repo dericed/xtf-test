@@ -236,7 +236,7 @@
    
    <!-- Path Parameters -->
    <xsl:param name="servlet.path"/>
-   <xsl:param name="root.path"/>
+   <xsl:variable name="root.path" select="'http://findingaids.danceheritage.org/xtf/'"/>
    <xsl:param name="xtfURL" select="$root.path"/>
    <xsl:param name="serverURL" select="replace($xtfURL, '(http://.+)[:/].+', '$1/')"/>
    <xsl:param name="crossqueryPath" select="if (matches($servlet.path, 'org.cdlib.xtf.dynaXML.DynaXML')) then 'org.cdlib.xtf.crossQuery.CrossQuery' else 'search'"/>

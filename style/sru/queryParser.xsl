@@ -64,8 +64,8 @@
 
   <!-- servlet path from the URL -->
   <xsl:param name="servlet.path"/>
-  <xsl:param name="root.path"/>
-  
+  <xsl:variable name="root.path" select="'http://findingaids.danceheritage.org/xtf/'"/>  
+
   <!-- operation (explain, searchRetrieve, etc.) -->
   <xsl:param name="operation" select="'searchRetrieve'"/>
 
