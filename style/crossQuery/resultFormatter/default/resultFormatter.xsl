@@ -620,15 +620,15 @@ Item number <xsl:value-of select="$num"/>:
                   </xsl:choose>
                </td>
                <td class="col2">
-                  <xsl:if test="$sort = 'creator'">
+                  <xsl:if test="$sort = 'publisher'">
                      <a name="{$anchor}"/>
                   </xsl:if>
-                  <b>Author:&#160;&#160;</b>
+                  <b>Repository:&#160;&#160;</b>
                </td>
                <td class="col3">
                   <xsl:choose>
-                     <xsl:when test="meta/creator">
-                        <xsl:apply-templates select="meta/creator[1]"/>
+                     <xsl:when test="meta/publisher">
+                        <xsl:apply-templates select="meta/publisher[1]"/>
                      </xsl:when>
                      <xsl:otherwise>none</xsl:otherwise>
                   </xsl:choose>
@@ -899,7 +899,7 @@ Item number <xsl:value-of select="$num"/>:
       <xsl:variable name="path" select="@path"/>
       
       <li>
-         <xsl:apply-templates select="meta/creator[1]"/>
+         <xsl:apply-templates select="meta/publisher[1]"/>
          <xsl:text>. </xsl:text>
          <a>
             <xsl:attribute name="href">
