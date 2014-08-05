@@ -12,6 +12,9 @@
 	<xsl:variable name="element-name" select="name($element)"/>
 	<xsl:choose>
 	<!-- supply headings if not present -->
+    	<xsl:when test="$element-name = 'acqinfo'">
+			<xsl:text>Source of Acquisition</xsl:text>
+		</xsl:when>
 		<xsl:when test="$element-name = 'dsc'">
 			<xsl:text>Container List</xsl:text>
 		</xsl:when>
